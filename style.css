@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  nav {
+    background-color: #444;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  #projects {
+    background-color: #f4f4f4;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-links img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+  }
+  
+  .skill-bar {
+    height: 20px;
+    width: 50%;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .skill-level {
+    height: 100%;
+    background-color: #4CAF50;
+    border-radius: 10px;
+  }
+  .view-certificate-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .certificate {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .certificate-image {
+    margin: 20px auto;
+    max-width: 60%;
+    height: 50%;
+  }
+  
+  /* Reset some default styles to have a clean starting point */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply some basic styles to the body and headings */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+
+  
+  
+  #internships {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.internship-item {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.internship-role {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.internship-company {
+    color: #888;
+}

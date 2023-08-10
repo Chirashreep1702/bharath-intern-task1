@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>I'm Chirashree</h1>
+    <p>Student and Frontend Developer</p>
+    <img src="c:\Users\Chirashree\Desktop\my photo.jpeg" width="60%" alt="Profile Image">
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#Certifications">Certifications</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Chirashree, a passionate computer science engineering student with a strong desire to explore the ever-evolving world of technology.I am on an exciting journey to master various programming languages and frameworks, eager to contribute my skills to meaningful projects and innovations.
+    </p>
+    </section>
+
+
+
+  <section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skill">
+        <span class="skill-name">HTML/CSS</span>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 85%;"></div>
+        </div>
+        <span class="skill-name">SQL</span>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 70%;"></div>
+        </div>
+        <span class="skill-name">C</span>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 65%;"></div>
+        </div>
+        <span class="skill-name">java/Python</span>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 40%;"></div>
+        </div>
+        <span class="skill-name">JavaScript</span>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 30%;"></div>
+        </div>
+      </div>
+      
+      <section id="internships">
+        <h2>Internships</h2><br>  
+        <div class="internship-item">
+            <div class="internship-role">Web Developer Intern</div>
+            <div class="internship-company">Lets GrowMore</div>
+        </div>
+        
+        
+    </section>
+
+  </section>
+
+  <section id="Certifications">
+    <h1>My Certifications</h1>
+
+  <div class="certificate">
+    <h3>HTML Attributes and Tags</h3>
+    <button class="view-certificate-btn" onclick="toggleCertificate('certificate1')">View Certificate</button>
+    <img id="certificate1" src="G:\internship\WhatsApp Image 2023-07-29 at 10.54.54 PM.jpeg" class="certificate-image" hidden>
+  </div>
+
+  
+
+  </section>
+  
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+        <h4>Court Files Data Management Systems</h4>
+        <p style="color: grey;">Database which keeps record of the file location and sort the files according to case hearing date making it easier for the user to submit the files to the court ontime.</p>
+    </div>
+    <div class="project">
+        <h4>Padrone Oversight</h4>
+        <p style="color: grey;">It is a hostel management  app which keeps traxk of students presence for meal, complaint lodging on hostel issues and easy interaction with hostel hostel related issues and council members</p>
+    </div>
+  </section>
+
+  
+  <script>
+    function toggleCertificate(certificateId) {
+      const certificateImage = document.getElementById(certificateId);
+      certificateImage.hidden = !certificateImage.hidden;
+    }
+  </script>
+
+  <footer>
+    <p>Connect with me:</p>
+    <ul class="social-links">
+      <li><a href="https://www.facebook.com/chirashree.padmashali?mibextid=ZbWKwL"><img src="G:\internship\bharathintern\download.jpg" alt="Facebook"></a></li>
+      <li><a href="https://www.snapchat.com/add/chirashree5760?share_id=bTIC90gMnDs&locale=en-US"><img src="G:\internship\bharathintern\download.png" alt="Snapchat"></a></li>
+      <li><a href="https://www.linkedin.com/in/chirashree-padmashali-038543202"><img src="G:\internship\bharathintern\unnamed.png" alt="LinkedIn"></a></li>
+    </ul>
+  </footer>
+  
+</body>
+</html>
